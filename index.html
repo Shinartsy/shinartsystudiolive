@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shinartsy's Portfolio</title>
+  <meta name="description" content="Landing page portfolio." />
+  <link rel="stylesheet" href="css.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="nav-wrap">
+    <nav class="nav container" aria-label="Primary">
+        <a href="#top" class="brand" aria-label="Go to top">
+            <img src="img/icon.JPG" alt="Brand icon" class="brand-badge" />
+            <span class="brand-name">SHINARTSY</span>
+          </a>
+      <div class="nav-links" role="menubar">
+        <a href="#work" role="menuitem">Work</a>
+        <a href="#about" role="menuitem">About</a>
+        <a href="#contact" role="menuitem">Contact</a>
+      </div>
+      <button class="nav-cta" data-scroll="contact" aria-label="Contact">Let’s talk</button>
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <a href="#work" data-close-mobile="true">Work</a>
+      <a href="#about" data-close-mobile="true">About</a>
+      <a href="#contact" data-close-mobile="true">Contact</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <header id="top" class="hero">
+    <div class="hero-bg" role="img" aria-label="Studio desk with art supplies"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="container content">
+      <span class="eyebrow">P o r t f o l i o</span>
+      <h1 class="title">Hello, I’m <span class="student">Shinartsy</span> — showcasing my creative work.</h1>
+      <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae orci non elit consequat porttitor. Aliquam erat volutpat. Integer sit amet nunc at leo efficitur varius.</p>
+      <div class="cta-row">
+        <button class="btn primary" data-scroll="work">View gallery</button>
+        <a class="btn ghost" href="#about">About me</a>
+      </div>
+      <div class="chip-deck" aria-label="Focus areas">
+        <span class="chip">Illustration</span>
+        <span class="chip">Digital Painting</span>
+        <span class="chip">Mixed Media</span>
+        <span class="chip">Typography</span>
+        <span class="chip">Graphic Design</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- WORK / GALLERY PREVIEW -->
+  <section id="work" class="features container" aria-label="Selected works">
+    <div class="grid">
+      <article class="card">
+        <span class="kicker">Project</span>
+        <h3>Lorem Ipsum Series</h3>
+        <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique sapien vel purus suscipit, vitae tincidunt nulla luctus.</p>
+        <a class="btn ghost" href="#" aria-label="Open Lorem Ipsum Series project">View project →</a>
+      </article>
+      <article class="card">
+        <span class="kicker">Artwork</span>
+        <h3>Dolor Sit Amet</h3>
+        <p class="muted">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+        <a class="btn ghost" href="#" aria-label="Open Dolor Sit Amet project">View project →</a>
+      </article>
+      <article class="card">
+        <span class="kicker">Exhibition</span>
+        <h3>Consectetur Adipiscing</h3>
+        <p class="muted">Phasellus eget lorem sit amet nulla maximus bibendum. Duis id ligula ac magna aliquam suscipit.</p>
+        <a class="btn ghost" href="#" aria-label="Open Consectetur Adipiscing project">View project →</a>
+      </article>
+    </div>
+  </section>
+
+  <main id="app"></main>
+
+  <!-- ABOUT -->
+  <section id="about" class="container" aria-label="About the artist">
+    <div class="card">
+      <h2>About</h2>
+      <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor ex vel nisl posuere, nec sollicitudin mauris feugiat. Donec commodo, nunc sed feugiat vehicula, sapien odio laoreet ligula, non cursus odio risus non tellus.</p>
+      <p class="muted">Mauris volutpat, leo sit amet fermentum pellentesque, nunc urna viverra ipsum, sit amet dignissim purus sapien vel purus.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="container" aria-label="Contact">
+    <div class="card">
+      <h2>Get in touch</h2>
+      <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed arcu urna. Morbi eget semper mauris, vel ultricies leo.</p>
+      <div class="contact-buttons">
+        <a class="btn primary" href="mailto:student@example.com">Email</a>
+        <a class="btn ghost" href="#" aria-label="Instagram profile">Instagram</a>
+        <a class="btn ghost" href="#" aria-label="Behance profile">Behance</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">© <span id="year"></span> <span class="student">Student Name</span> — All rights reserved.</div>
+  </footer>
+</body>
+</html>
