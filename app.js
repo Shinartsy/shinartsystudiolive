@@ -30,11 +30,13 @@
   // ------- Landing sections (hero + work) toggle -------
   const heroSection = document.querySelector('header.hero');
   const workSection = document.getElementById('work');
+  const aboutSection = document.getElementById('about');
 
   function setLandingVisible(isVisible) {
     const displayValue = isVisible ? '' : 'none';
     if (heroSection) heroSection.style.display = displayValue;
     if (workSection) workSection.style.display = displayValue;
+    if (aboutSection) aboutSection.style.display = displayValue;
   }
   
 
