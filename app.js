@@ -206,6 +206,7 @@
 
   // ------- Views -------
   async function renderCategories() {
+    setLandingVisible(false);
     const { categories = [] } = await loadCatalog();
     const grid = ensureSectionShell('Explore Categories');
 
