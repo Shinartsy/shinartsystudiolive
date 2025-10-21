@@ -16,7 +16,7 @@ categories:
   - name: test
     pieces:
       - name: Floral Study A
-        img: img/test/TEST1.jpg
+        img: img/comic/IMG_1765.png
         date_created: "2024-12-18"
         short_description: "Curabitur luctus dui at arcu fermentum, vitae viverra dolor interdum."
         long_description: "Curabitur luctus dui at arcu fermentum, vitae viverra dolor interdum. Morbi non urna posuere, sodales eros id, dictum orci. Donec nec elit non orci cursus consequat. Proin aliquam, purus sit amet maximus faucibus, sem leo tempor nunc, quis efficitur lorem urna id magna."
@@ -26,27 +26,3 @@ categories:
         date_created: "2025-02-05"
         short_description: "Vivamus pretium lectus vitae velit tempus, quis tempus magna luctus."
         long_description: "Vivamus pretium lectus vitae velit tempus, quis tempus magna luctus. Sed aliquet faucibus elit vitae euismod. Donec varius, mauris in euismod ultrices, arcu sapien finibus justo, in sollicitudin velit lorem id neque."
-
-      - name: City Sketch C
-        img: img/test/TEST3.jpg
-        date_created: "2024-10-27"
-        short_description: "Nunc nec arcu eget lorem tincidunt scelerisque."
-        long_description: "Nunc nec arcu eget lorem tincidunt scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas dictum dolor ac augue posuere, at luctus nibh commodo."
-
-      - name: City Sketch C
-        img: img/test/TEST4.jpg
-        date_created: "2024-10-27"
-        short_description: "Nunc nec arcu eget lorem tincidunt scelerisque."
-        long_description: "Nunc nec arcu eget lorem tincidunt scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas dictum dolor ac augue posuere, at luctus nibh commodo."
-
-      - name: City Sketch C
-        img: img/test/TEST5.jpg
-        date_created: "2024-10-27"
-        short_description: "Nunc nec arcu eget lorem tincidunt scelerisque."
-        long_description: "Nunc nec arcu eget lorem tincidunt scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas dictum dolor ac augue posuere, at luctus nibh commodo."
-
-      - name: City Sketch C
-        img: img/test/TEST6.jpg
-        date_created: "2024-10-27"
-        short_description: "Nunc nec arcu eget lorem tincidunt scelerisque."
-        long_description: "Nunc nec arcu eget lorem tincidunt scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas dictum dolor ac augue posuere, at luctus nibh commodo."
