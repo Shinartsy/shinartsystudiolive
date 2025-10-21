@@ -1,23 +1,17 @@
 categories:
   - name: Comic
     pieces:
-      - name: ICON
+      - name: COMIC1
         img: img/comic/IMG_1764.png
         date_created: "2025-01-12"
         short_description: "IasdfLorem ipsum dolor sit amet, consectetur adipiscing elit."
         long_description: "ILorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac porta velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed interdum, massa ac vestibulum volutpat, turpis lectus placerat lorem, ac feugiat nunc nibh ac risus."
 
-      - name: kHorroer
+      - name: COMIC2
         img: img/comic/IMG_1765.png
         date_created: "2024-11-03"
         short_description: "HlskdjfSuspendisse potenti. Etiam ultricies dui in ipsum rhoncus."
         long_description: "HorrerSuspendisse potenti. Etiam ultricies dui in ipsum rhoncus, non venenatis tortor ullamcorper. Curabitur feugiat, ipsum a sollicitudin aliquet, nibh urna mattis lorem, vitae tincidunt arcu erat at mi. Aliquam erat volutpat."
-
-      - name: Saigon
-        img: img/comic/SaigonNoodles.png
-        date_created: "2025-03-02"
-        short_description: "SasdfPraesent vitae eros at tellus bibendum vehicula."
-        long_description: "SPraesent vitae eros at tellus bibendum vehicula. Aliquam blandit, urna non maximus tempus, augue magna pharetra leo, vitae hendrerit ligula lorem id lacus. Cras gravida, lorem id dapibus commodo, enim lectus porta dui, a fringilla metus massa vitae ante."
 
   - name: test
     pieces:

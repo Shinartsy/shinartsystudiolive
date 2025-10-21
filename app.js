@@ -27,6 +27,17 @@
     return main;
   }
 
+  // ------- Landing sections (hero + work) toggle -------
+  const heroSection = document.querySelector('header.hero');
+  const workSection = document.getElementById('work');
+
+  function setLandingVisible(isVisible) {
+    const displayValue = isVisible ? '' : 'none';
+    if (heroSection) heroSection.style.display = displayValue;
+    if (workSection) workSection.style.display = displayValue;
+  }
+  
+
   // ------- Utilities -------
   const slug = (s) =>
     String(s)
@@ -363,15 +374,20 @@
     const route = parseRoute();
     switch (route.view) {
       case 'root':
+        setLandingVisible(true);     // ← show HERO + initial WORK
         return renderCategories();
       case 'category':
+        setLandingVisible(false);    // ← hide HERO + initial WORK
         return renderCategory(route.category);
       case 'item':
+        setLandingVisible(false);    // ← hide HERO + initial WORK
         return renderItem(route.category, route.piece);
       default:
+        setLandingVisible(false);    // 404-like view also hides landing
         return renderNotFound();
     }
   }
+
 
   // Navigation helpers
   function navigateToCategory(name) {
