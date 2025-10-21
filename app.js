@@ -376,8 +376,7 @@
     const route = parseRoute();
     switch (route.view) {
       case 'root':
-  -     setLandingVisible(true);     // show HERO + WORK + ABOUT
-  +     setLandingVisible(false);    // HIDE HERO + WORK + ABOUT
+        setLandingVisible(true);     // show HERO + WORK + ABOUT
         return renderCategories();
       case 'category':
         setLandingVisible(false);
