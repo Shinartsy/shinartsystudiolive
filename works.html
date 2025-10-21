@@ -3,32 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>All Works — Shinartsy</title>
-  <meta name="description" content="All artworks by category." />
-
+  <title>Shinartsy's Portfolio</title>
+  <meta name="description" content="Landing page portfolio." />
   <link rel="stylesheet" href="css.css" />
-
-  <!-- YAML parser -->
+  <!-- YAML parser (js-yaml) -->
   <script src="https://unpkg.com/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-  <script src="works.js" defer></script>
-
-  <style>
-    /* Optional: light enhancements so this page looks tidy even without css.css */
-    .container { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
-    .page-header { padding: 24px 0 8px; }
-    .category-nav { display:flex; flex-wrap:wrap; gap:8px; margin: 0 0 16px; }
-    .category-nav a { padding: 6px 10px; border:1px solid #ddd; border-radius: 8px; text-decoration:none; }
-    .category-block { margin: 24px 0 48px; }
-    .category-block h2 { margin: 0 0 12px; }
-    .grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(240px,1fr)); gap: 16px; }
-    .card { background:#fff; border:1px solid rgba(0,0,0,.08); border-radius:12px; overflow:hidden; display:flex; flex-direction:column; }
-    .card figure { margin:0; }
-    .thumb { width:100%; height:auto; display:block; }
-    .card .meta { padding:12px; }
-    .muted { opacity:.8; }
-    .sr-only { position:absolute; left:-9999px; }
-    .missing { display:grid; place-items:center; min-height:180px; background: repeating-linear-gradient(45deg,#eee,#eee 10px,#f6f6f6 10px,#f6f6f6 20px); }
-  </style>
+  <script src="app.js" defer></script>
 </head>
 <body>
   <header class="page-header container">
