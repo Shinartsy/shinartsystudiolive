@@ -26,8 +26,6 @@
     .thumb { width:100%; height:auto; display:block; }
     .card .meta { padding:12px; }
     .muted { opacity:.8; }
-    .searchbar { display:flex; gap:8px; align-items:center; margin: 12px 0 24px; }
-    .searchbar input { flex:1; padding:10px 12px; border:1px solid #ddd; border-radius:10px; }
     .sr-only { position:absolute; left:-9999px; }
     .missing { display:grid; place-items:center; min-height:180px; background: repeating-linear-gradient(45deg,#eee,#eee 10px,#f6f6f6 10px,#f6f6f6 20px); }
   </style>
@@ -37,16 +35,8 @@
     <a href="index.html" style="text-decoration:none">← Back</a>
     <h1>All Works</h1>
     <p class="muted">Browse every piece, grouped by category.</p>
-
-    <div class="searchbar">
-      <label class="sr-only" for="q">Search works</label>
-      <input id="q" type="search" placeholder="Search by title or description…" />
-    </div>
-
-    <nav id="catNav" class="category-nav" aria-label="Categories"></nav>
-  </header>
-
-  <main id="worksApp" class="container" aria-live="polite"></main>
+    
+    <main id="app"></main>
 
   <footer class="container" style="padding:24px 0 48px; opacity:.8;">
     © <span id="year"></span> Shinartsy
