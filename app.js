@@ -376,19 +376,21 @@
     const route = parseRoute();
     switch (route.view) {
       case 'root':
-        setLandingVisible(true);     // ← show HERO + initial WORK
+  -     setLandingVisible(true);     // show HERO + WORK + ABOUT
+  +     setLandingVisible(false);    // HIDE HERO + WORK + ABOUT
         return renderCategories();
       case 'category':
-        setLandingVisible(false);    // ← hide HERO + initial WORK
+        setLandingVisible(false);
         return renderCategory(route.category);
       case 'item':
-        setLandingVisible(false);    // ← hide HERO + initial WORK
+        setLandingVisible(false);
         return renderItem(route.category, route.piece);
       default:
-        setLandingVisible(false);    // 404-like view also hides landing
+        setLandingVisible(false);
         return renderNotFound();
     }
   }
+  
 
 
   // Navigation helpers
